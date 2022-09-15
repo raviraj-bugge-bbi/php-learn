@@ -9,4 +9,6 @@ echo "<h1>--PHP Regular Expressions-</h1><br><br>";
 // A regular expression can be a single character, or a more complicated pattern.
 
 // Regular expressions can be used to perform all types of text search and text replace operations.
+
+$regEx = "/total/i";
 ?>
