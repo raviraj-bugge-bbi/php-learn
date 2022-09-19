@@ -1,0 +1,2 @@
+overwriting the previous text with this sentenceThis text is appended to this file using (a - append mode)
+This text is appended to this file using (a - append mode)
