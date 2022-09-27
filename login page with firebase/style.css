@@ -26,6 +26,7 @@ body {
   padding: 10px 100px 10px 100px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 
@@ -47,7 +48,7 @@ input {
   border-radius: 0 0.5vh 0.5vh 0;
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 
@@ -74,10 +75,18 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-span{
+
+span {
   color: #f45b69;
   font-weight: 100;
 }
-a{
-  text-decoration: none ;
+
+a {
+  text-decoration: none;
+}
+
+#msg > p{
+display: flex;
+justify-content: center;
+align-items: center;
 }

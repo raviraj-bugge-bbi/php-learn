@@ -1,19 +1,17 @@
 <?php
     include 'connection.php';
 
-    $user = $_POST['userName'];
-    $pass = $_POST['password'];
+    $user = $_REQUEST['userName'];
+    $pass = $_REQUEST['password'];
 
     $sql = "INSERT INTO user_details (username, usr_Password) VALUES ('$user', '$pass')";
 
     if($connection -> query($sql) === true){
-        <script>
-        </script>
+        echo '<p style="color: green;">Account successfully created!</p>';
     }
     else{
-        echo '<h1 style="size: 30px;" >failed to create account</h1>' . $sql . $connection->error;
+        echo '<p style="color: red;">Failed to create account</p>';
     }
-    echo "\n";
-    echo '<a href="sign-in.html"> goto login page </a>';
+
     $connection->close();
 ?>
