@@ -84,9 +84,3 @@ span {
 a {
   text-decoration: none;
 }
-
-#msg > p{
-display: flex;
-justify-content: center;
-align-items: center;
-}
