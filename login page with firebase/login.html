@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Login Page</title>
 </head>
@@ -19,14 +22,14 @@
                     <p class="input"><i class="fa fa-user" id="logo"></i><input type="text" placeholder="Username"
                             name="userName" id="userName" required></p>
                     <p class="input"><i class="fa fa-lock" id="logo"></i><input type="password" placeholder="Password"
-                            name="password" id="password" required>
-                    </p>
+                            name="password" id="password" required></p>
                 </div>
 
                 <div id="msg"></div>
 
                 <div id="btn">
-                    <button type="button" class="bg btn" onclick="fetchData(userName.value, password.value)">SIGN IN</button>
+                    <button type="button" class="btn" onclick="fetchData(userName.value, password.value)">SIGN
+                        IN</button>
                     <p>Don&#39t have an account? &nbsp <a href="sign up.html">Create one</a></p>
                 </div>
             </form>
