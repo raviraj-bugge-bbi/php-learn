@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(bike.png);
+    background-repeat: no-repeat;
+    background-size:100vw;
+    background-attachment:fixed;
+    overflow: hidden scroll;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+#div1{
+    height: 90vh;
+}
+
+#navDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(240, 248, 255, 0);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 1.5vw 5vw 1.5vw 5vw;
+    color: aliceblue;
+}
+
+#navBar:hover {
+    background-color: rgba(240, 248, 255, 0.508);
+    color: black;
+}
+
+img{
+    color: aliceblue;
+    width: 4vw;
+}
+
+#navLinks {
+    width: auto;
+    padding: 0 50px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navItems {
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+
+}
+
+.navItems:hover {
+    background-color: #f0f8ff;
+    border-radius: 2px;
+}
+
+/* ------------------------------------------------------------- */
+
+#div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(16, 19, 19, 0.454);
+    backdrop-filter: blur(5px);
+    height: 90vh;
+    color: aliceblue;
+}
+
+#detailsHeading{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#detailsContent{
+
+}
