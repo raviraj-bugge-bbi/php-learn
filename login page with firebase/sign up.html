@@ -16,20 +16,19 @@
 <body>
     <div id="main" class="bg">
         <div id="container">
-            <h3>SIGN&nbsp<span>UP</span></h3>
+            <h3 class="heading">SIGN&nbsp<span>UP</span></h3>
             <form class="login" method="post">
                 <div id="input">
                     <p class="input"><i class="fa fa-user" id="logo"></i><input type="text" placeholder="Username"
                             name="userName" id="userName" required></p>
                     <p class="input"><i class="fa fa-lock" id="logo"></i><input type="password" placeholder="Password"
-                            name="password" id="password" required>
-                    </p>
+                            name="password" id="password" required></p>
                 </div>
 
                 <div id="msg"></div>
 
                 <div id="btn">
-                    <button type="button" class="btn" onclick="fetchData(userName.value, password.value)">CREATE
+                    <button type="button" class="btn same" onclick="fetchData(userName.value, password.value)">CREATE
                         ACCOUNT</button>
                     <p>Already have an account? &nbsp <a href="login.html">Log in</a></p>
                 </div>

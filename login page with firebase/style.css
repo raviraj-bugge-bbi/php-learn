@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Asap', sans-serif;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 .bg {
-  background-color: #282c35;
+  background-color: #1A1A2E;
 }
 
 #main {
@@ -21,7 +21,7 @@ body {
 
 #container {
   border-radius: 2vh;
-  background-color: aliceblue;
+  background-color: #EEEEEE;
   /* padding: 5vh 10vh; */
   padding: 10px 100px 10px 100px;
   display: flex;
@@ -66,6 +66,7 @@ p {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  color: #0F3460;
 }
 
 #logo {
@@ -77,10 +78,21 @@ p {
 }
 
 span {
-  color: #f45b69;
+  color: #E23E57;
   font-weight: 100;
+}
+
+.same{
+  background-color: #E23E57;
+  color: #2A2438;
+  font-weight: bold;
 }
 
 a {
   text-decoration: none;
+}
+
+.heading{
+  font-size: xx-large;
+  color: #2A2438;
 }
